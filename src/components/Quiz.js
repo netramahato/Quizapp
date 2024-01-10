@@ -34,7 +34,7 @@ function Quiz() {
         {showResult ? (
           <QuizResult
             score={score}
-            totalScore={QuizData.length}
+            totalscore={QuizData.length}
             tryAgain={resetAll}
           />
         ) : (
